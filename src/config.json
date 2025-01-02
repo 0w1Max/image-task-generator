@@ -1,0 +1,60 @@
+{
+  "outputDir": "task_images",
+  "backgroundImage": "bg.jpg",
+  "fontSettings": {
+    "titleSize": 30,
+    "fontFamily": "Arial",
+    "titleColor": "#fff",
+    "titleTopMargin": 50,
+    "titleHorizontalPosition": "center",
+    "bottomTitleSize": 30,
+    "bottomTitleColor": "#fff",
+    "bottomTitleMargin": 50,
+    "bottomTitleHorizontalPosition": "center",
+    "codeFontFamily": "Consolas, monospace",
+    "codeSize": 14,
+    "codeBackgroundColor": "#252527",
+    "codeTextColor": "#d19a66",
+    "codePadding": 10,
+    "codeBorderRadius": 5,
+    "codeBorderColor": "#ccc",
+    "codeHighlightColors": {
+      "comment": "#6a9955",
+      "string": "#ce9178",
+      "number": "#ce9178",
+      "keyword": "#569cd6",
+      "function": "#dcdcaa",
+       "parameter": "#d19a66",
+      "variable": "#9cdcfe",
+       "operator": "#d4d4d4",
+       "punctuation": "#d4d4d4"
+    }
+  },
+  "groupElement": {
+    "type": "text",
+    "content": "Telegram:`${dudes}Dev`",
+    "fontSize": 18,
+    "fontColor": "#fff",
+    "fontFamily": "Consolas, monospace",
+    "imagePath": null,
+    "marginRight": 10,
+    "marginBottom": 10
+  },
+  "codeBlockPosition": "center",
+  "codeBlockHorizontalPosition": "center",
+  "tasks": [
+    {
+      "number": 1,
+      "title": "Напишите функцию, которая складывает два числа.",
+      "bottomTitle": "Задание 1",
+      "code": "function add(a, b) {\n  return a + b;\n}",
+      "language": "javascript"
+    },
+    {
+      "number": 2,
+      "title": "С новым годом!",
+      "bottomTitle": "2025",
+      "image": "image.png"
+    }
+  ]
+}

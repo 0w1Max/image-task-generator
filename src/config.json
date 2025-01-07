@@ -45,9 +45,9 @@
   "tasks": [
     {
       "number": 1,
-      "title": "Напишите функцию, которая складывает два числа.",
-      "bottomTitle": "Задание 1",
-      "code": "function add(a, b) {\n  return a + b;\n}",
+      "title": "Что выведет консоль?",
+      "bottomTitle": "",
+      "code": "function outer() {\n let count = 0;\n return function inner() {\n  count++;\n  return count;\n };\n}\n\nconst counter1 = outer();\nconst counter2 = outer();\nconsole.log(counter1(), counter1(), counter2());",
       "language": "javascript"
     },
     {

@@ -1,9 +1,9 @@
 {
   "outputDir": "task_images",
-  "backgroundImage": "bg.jpg",
+  "backgroundImage": "bg-2.jpg",
   "fontSettings": {
-    "titleSize": 30,
-    "fontFamily": "Arial",
+    "titleSize": 28,
+    "fontFamily": "Consolas, monospace",
     "titleColor": "#fff",
     "titleTopMargin": 50,
     "titleHorizontalPosition": "center",
@@ -45,9 +45,9 @@
   "tasks": [
     {
       "number": 1,
-      "title": "Напишите функцию, которая складывает два числа.",
-      "bottomTitle": "Задание 1",
-      "code": "function add(a, b) {\n  return a + b;\n}",
+      "title": "Что выведет консоль?",
+      "bottomTitle": "",
+      "code": "function outer() {\n let count = 0;\n return function inner() {\n  count++;\n  return count;\n };\n}\n\nconst counter1 = outer();\nconst counter2 = outer();\nconsole.log(counter1(), counter1(), counter2());",
       "language": "javascript"
     },
     {
@@ -55,6 +55,20 @@
       "title": "С новым годом!",
       "bottomTitle": "2025",
       "image": "image.png"
+    },
+    {
+      "number": 3,
+      "title": "Что выведет консоль?",
+      "bottomTitle": "",
+      "code": "const arr = ['1', '2', '3'].map(parseInt);\n\nconsole.log(arr);",
+      "language": "javascript"
+    },
+    {
+      "number": 4,
+      "title": "Что выведет консоль?",
+      "bottomTitle": "",
+      "code": "const obj1 = { a: 1, b: 2 };\nconst obj2 = { b: 3, c: 4 };\nconst obj3 = Object.assign({}, obj1, obj2);\n\nobj1.a = 10;\nconsole.log(obj1.a, obj3.a);",
+      "language": "javascript"
     }
   ]
 }

@@ -568,10 +568,10 @@ async function createProgrammingTaskImage(taskTitle, taskNumber, code, language,
             return;
         }
 
-        const imageWidth = 800;
-        const imageHeight = 600;
-        const padding = 50;
-        const maxCodeHeight = 200;
+        const imageWidth = 600;
+        const imageHeight = 400;
+        const padding = 10;
+        const maxCodeHeight = 300;
 
         // Загрузка фонового изображения или использование белого фона
         const { canvas, ctx } = await loadImageOrUseDefault(backgroundImagePath, imageWidth, imageHeight);

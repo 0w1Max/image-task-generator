@@ -52,9 +52,10 @@
     },
     {
       "number": 2,
-      "title": "С новым годом!",
-      "bottomTitle": "2025",
-      "image": "image.png"
+      "title": "Что выведет консоль?",
+      "bottomTitle": "",
+      "code": "const arr = [1, 2, 3, 4];\nconst sum = arr.reduce((acc, curr) => acc + curr, 0);\nconst product = arr.reduce((acc, curr) => acc * curr);\n\nconsole.log(sum, product);",
+      "language": "javascript"
     },
     {
       "number": 3,
